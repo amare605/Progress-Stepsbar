@@ -12,7 +12,7 @@ next.addEventListener('click' , ()=>{
         currentActive = circles.length ;
     }
     updateActivities();
-    console.log(currentActive);
+    
 })
 
 // 點選上一步
@@ -22,7 +22,7 @@ prev.addEventListener('click' , ()=>{
         currentActive = 1 ;
     }
     updateActivities();
-    console.log(currentActive);
+    
 })
 
 // 共用程式
